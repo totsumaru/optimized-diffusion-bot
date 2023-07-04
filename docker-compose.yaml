@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   go:
-    image: red-ginger-bot-go
-    container_name: red-ginger-bot-go
+    image: optimized-diffusion-bot-go
+    container_name: optimized-diffusion-bot-go
     build: .
     volumes:
       - "./:/go/src"
