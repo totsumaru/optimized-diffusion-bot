@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  go:
+    image: red-ginger-bot-go
+    container_name: red-ginger-bot-go
+    build: .
+    volumes:
+      - "./:/go/src"
+    tty: true
+    restart: always
